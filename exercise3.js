@@ -7,7 +7,7 @@ const user = {
   password: prompt("Enter your password"),
   login() {
     if (email === this.email && password === this.password) {
-      return alert("Ви зареєтсровані");
+      return alert("Ви авторизовані");
     } else {
       return alert("Перевірте ваш email чи password ще раз");
     }
